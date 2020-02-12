@@ -1,0 +1,75 @@
+{% extends 'base.html.twig' %}
+{% block container %}
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {background-color: #f2f2f2;}
+    </style>
+    <section class="home-slider-wrap color-3">
+        <div class="home-slider" id="home-slider">
+            <div class="card">
+                <img src="{{ asset('temp/alisena-html.buzline.org/img/home-slide_img.jpg') }}" class="home-slider-bg" alt="img">
+                <div class="container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="inner-home-slider">
+                    <div class="home-slider-desc">
+                        <div class="home-slider-text">
+
+                            <h1>Carnets list</h1>
+
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th>Nom eleve</th>
+                                    <th>Note</th>
+                                    <th>Appreciation</th>
+                                    <th>Semestre</th>
+
+                                    <th>Date</th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {% for carnet in valeur  %}
+
+                                    <tr>
+                                        <td>{{ carnet.eleve.nom }}</td>
+                                        <td>{{ carnet.note }}</td>
+                                        <td>{{ carnet.appreciation }}</td>
+                                        <td>{{ carnet.semestre }}</td>
+
+                                        <td>{% if carnet.date %}{{ carnet.date|date('Y-m-d') }}{% endif %}</td>
+                                        <td>
+
+                                        </td>
+                                    </tr>
+
+
+                                {% endfor %}
+                                </tbody>
+                            </table>
+<br><br>
+                            <div class="slider-button-wrap">
+
+                                <a href="enroll.html" class="button color-4">PDF</a>
+                            </div>
+                        </div>
+                        <img src="{{ asset('temp/alisena-html.buzline.org/img/buterfly-2.png') }}" class="slider-mini-img one" alt="buterfly">
+                        <img src="{{ asset('temp/alisena-html.buzline.org/img/bee.png') }}" class="slider-mini-img two" alt="bee">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
