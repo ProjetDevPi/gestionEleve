@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="rootpane" nodeOrientation="LEFT_TO_RIGHT" prefHeight="908.0" prefWidth="1282.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.InscriptionController">
+   <children>
+      <Pane layoutX="-1.0" prefHeight="49.0" prefWidth="1306.0" styleClass="head-background" stylesheets="@style.css" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="224.0" layoutY="47.0" text="Kid'O" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="227.0" layoutY="100.0" text="Since 2015" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="53.0" fitWidth="62.0" layoutX="36.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@buterfly-2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <HBox layoutX="-1.0" layoutY="110.0" prefHeight="21.0" prefWidth="1822.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="-539.0">
+         <children>
+            <JFXButton prefHeight="30.0" prefWidth="206.0" ripplerFill="#ee1d1d" text="Home" textFill="#ff0808" underline="true">
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="30.0" prefWidth="183.0" text="Inscription" textFill="#ebae29" underline="true">
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="30.0" prefWidth="183.0" text="Notebook" textFill="#7bd021" underline="true">
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="30.0" prefWidth="116.0" text="Library" textFill="#25cdca" underline="true">
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="30.0" prefWidth="178.0" text="Clubs" textFill="#eb17cf" underline="true">
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="30.0" prefWidth="146.0" text="Events" textFill="#ee1669" underline="true">
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="30.0" prefWidth="123.0" text="Canteen" textFill="#e7eb09" underline="true">
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="30.0" prefWidth="171.0" text="About us" textFill="#8d2184" underline="true">
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </HBox>
+      <ImageView fitHeight="50.0" fitWidth="240.0" layoutX="18.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@log.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="360.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+216 71 293 658" wrappingWidth="153.13671875">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="360.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+216  97 293 658" wrappingWidth="153.13671875">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="577.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tunis ,El Ghazella" wrappingWidth="147.000013589859" />
+      <Text layoutX="578.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="38 Rue,Ibn Moataz" wrappingWidth="153.13671875" />
+      <Text layoutX="823.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kido@gmail.com" />
+      <ImageView fitHeight="20.0" fitWidth="30.0" layoutX="332.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/call_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="62.0" layoutX="548.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/geo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="39.0" layoutX="793.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/message.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="68.0" layoutX="1000.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/profile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="62.0" layoutX="1111.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/login_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="86.0" layoutX="897.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bird.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="35.0" layoutY="221.0" prefHeight="680.0" prefWidth="614.0" style="-fx-background-color: white;">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <children>
+            <Pane prefHeight="715.0" prefWidth="589.0" style="-fx-background-color: white;">
+               <children>
+                  <JFXButton fx:id="btnadd" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="497.0" layoutY="623.0" onAction="#addE" prefHeight="45.0" prefWidth="103.0" ripplerFill="#272827" styleClass="green" stylesheets="@buttonstyle.css" text="Sign up" textFill="#4bd009" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <effect>
+                        <InnerShadow color="#805959" />
+                     </effect>
+                     <font>
+                        <Font name="Bell MT Bold" size="21.0" />
+                     </font>
+                  </JFXButton>
+                  <VBox layoutX="175.0" layoutY="-59.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="718.0" prefWidth="332.0" spacing="30.0">
+                     <children>
+                        <JFXTextField fx:id="txtnom" maxWidth="-Infinity" onKeyPressed="#verifinom" onMouseClicked="#textchanger" prefWidth="300.0">
+                           <font>
+                              <Font name="Bodoni MT Italic" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </JFXTextField>
+                        <Label fx:id="erorname" prefHeight="21.0" prefWidth="358.0" textFill="#f20808" />
+                        <JFXTextField fx:id="txtprenom" maxWidth="-Infinity" onKeyPressed="#verifprenom" prefWidth="300.0">
+                           <font>
+                              <Font name="Bodoni MT Italic" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </JFXTextField>
+                        <Label fx:id="erorprenom" prefHeight="0.0" prefWidth="0.0" textFill="#f20808" />
+                        <JFXComboBox fx:id="comboG" prefHeight="31.0" prefWidth="325.0" />
+                        <JFXTextField fx:id="txtage" maxWidth="-Infinity" onKeyPressed="#verifage" prefWidth="300.0">
+                           <font>
+                              <Font name="Bodoni MT Italic" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </JFXTextField>
+                        <Label fx:id="erorage" textFill="#f20808" />
+                        <JFXTextField fx:id="txtadresse" maxWidth="-Infinity" onKeyPressed="#verifadresse" prefHeight="50.0" prefWidth="310.0">
+                           <font>
+                              <Font name="Bodoni MT Italic" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </JFXTextField>
+                        <Label fx:id="erorad" textFill="#f20808" />
+                        <JFXDatePicker fx:id="txtdate" onKeyPressed="#verifdate" prefHeight="38.0" prefWidth="313.0" />
+                     </children>
+                     <padding>
+                        <Insets top="50.0" />
+                     </padding>
+                  </VBox>
+                  <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="513.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/name.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="513.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/mother.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="513.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/online.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="45.0" fitWidth="40.0" layoutX="513.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/playground.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="45.0" fitWidth="40.0" layoutX="513.0" layoutY="493.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/map-location.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="25.0" layoutY="14.0" prefHeight="68.0" prefWidth="131.0" text="Name:">
+                     <font>
+                        <Font name="Bodoni MT Bold Italic" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="149.0" prefHeight="68.0" prefWidth="252.0" text=" Family Name:">
+                     <font>
+                        <Font name="Bodoni MT Bold Italic" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="277.0" prefHeight="68.0" prefWidth="131.0" text="Grade:">
+                     <font>
+                        <Font name="Bodoni MT Bold Italic" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="359.0" prefHeight="68.0" prefWidth="131.0" text="Age:">
+                     <font>
+                        <Font name="Bodoni MT Bold Italic" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="499.0" prefHeight="68.0" prefWidth="131.0" text="Address:">
+                     <font>
+                        <Font name="Bodoni MT Bold Italic" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="598.0" prefHeight="68.0" prefWidth="131.0" text="Date of birth:">
+                     <font>
+                        <Font name="Bodoni MT Bold Italic" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="erordate" layoutX="175.0" layoutY="645.0" textFill="#f20808" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <VBox layoutX="699.0" layoutY="259.0" prefHeight="378.0" prefWidth="546.0" style="-fx-background-color: white;">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <children>
+            <Pane prefHeight="377.0" prefWidth="546.0">
+               <children>
+                  <JFXTextField fx:id="filechoose" layoutX="177.0" layoutY="318.0" prefHeight="31.0" prefWidth="190.0" />
+                  <BorderPane layoutX="115.0" layoutY="46.0" prefHeight="224.0" prefWidth="298.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                     <center>
+                        <ImageView fitHeight="242.0" fitWidth="246.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@../images/unnamed%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </center>
+                  </BorderPane>
+                  <JFXButton fx:id="chooser" layoutX="401.0" layoutY="320.0" onAction="#image" prefHeight="40.0" prefWidth="131.0" styleClass="green" stylesheets="@buttonstyle.css" text="upload">
+                     <font>
+                        <Font name="Bell MT Bold" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <Label layoutX="24.0" layoutY="311.0" prefHeight="68.0" prefWidth="200.0" text="Upload Image:">
+                     <font>
+                        <Font name="Bodoni MT Bold Italic" size="21.0" />
+                     </font>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <VBox layoutX="693.0" layoutY="694.0" prefHeight="212.0" prefWidth="546.0" style="-fx-background-color: white;">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <children>
+            <Pane prefHeight="219.0" prefWidth="546.0">
+               <children>
+                  <ProgressBar fx:id="prog" layoutX="48.0" layoutY="104.0" prefHeight="41.0" prefWidth="312.0" progress="0.0" style="-fx-background-radius: 200PX;" />
+                  <Text fx:id="txtbar" layoutX="48.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Progress will appear here...">
+                     <font>
+                        <Font name="Arial Bold Italic" size="15.0" />
+                     </font>
+                  </Text>
+                  <ProgressIndicator fx:id="indic" layoutX="430.0" layoutY="84.0" prefHeight="68.0" prefWidth="75.0" progress="0.0" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <Pane layoutX="18.0" layoutY="177.0" opacity="0.71" prefHeight="68.0" prefWidth="217.0" style="-fx-background-color: #a9ff00;">
+         <children>
+            <Text layoutX="33.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Form">
+               <font>
+                  <Font name="Arial" size="37.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="669.0" layoutY="211.0" opacity="0.71" prefHeight="68.0" prefWidth="253.0" style="-fx-background-color: #a9ff00;">
+         <children>
+            <Text layoutX="26.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Image">
+               <font>
+                  <Font name="Arial" size="37.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="675.0" layoutY="649.0" opacity="0.71" prefHeight="68.0" prefWidth="233.0" style="-fx-background-color: #a9ff00;">
+         <children>
+            <Text layoutX="35.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Progress">
+               <font>
+                  <Font name="Arial" size="37.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="437.0" layoutY="150.0" prefHeight="53.0" prefWidth="492.0" text="Sign Up You'r Child" textFill="#00bc10" underline="true">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="0.0" specularConstant="1.59" specularExponent="40.0" surfaceScale="1.87">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+            
+                  </Lighting>
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

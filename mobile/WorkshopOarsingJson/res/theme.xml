@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="11" useXmlUI="false">
+    <image name="back.jpg"  />
+    <image name="high.png"  />
+    <image name="icon.png"  />
+    <image name="load.gif"  />
+    <image name="low.png"  />
+    <image name="medium.png"  />
+    <theme name="Theme">
+        <val key="@includeNativeBool" value="true" />
+    </theme>
+    <image name="veryhigh.png"  />
+</resource>

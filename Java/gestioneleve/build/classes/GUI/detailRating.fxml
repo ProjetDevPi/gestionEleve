@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="134.0" prefWidth="662.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="GUI.DetailRatingController">
+   <children>
+      <Pane prefHeight="140.0" prefWidth="203.0" style="-fx-background-color: #F47983;">
+         <children>
+            <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Utilisateur:">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="utilisateur" layoutX="56.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="91.6708984375">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+         </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Pane>
+      <Text layoutX="225.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Commentaire:" />
+      <Text fx:id="com" layoutX="298.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="276.6708984375">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="121.0" fitWidth="133.0" layoutX="527.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/flower.gif" />
+         </image>
+      </ImageView>
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>
